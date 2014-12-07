@@ -1,7 +1,10 @@
-@(message: String)
+@(user : String)
 
-@main("Welcome to Play") {
+@main("FLAMING-BATMAN") {
 
-    @play20.welcome(message)
+    <h1>FLAMING-BATMAN!</h1>
 
+    <p>Welcome, @user</p>
+
+    <a href="@routes.Authentication.logout">Logout</a>
 }
